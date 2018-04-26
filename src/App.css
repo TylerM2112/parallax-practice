@@ -1,0 +1,337 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+p{
+  font-family: Roboto;
+  margin: 0px;
+  padding: 0px;
+}
+h3{
+  font-family: Poppins;
+  margin: 0px;
+  padding: 0px;
+}
+
+.loginButton{
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  height: 50px;
+  width: 150px;
+  background-color: rgb(131, 12, 12);
+  border-radius: 25px;
+}
+
+.loginButton p{
+  margin: auto;
+  margin-top: 15px;
+  width: 40px;
+  color: white;
+}
+
+.firstPanel{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 80vh;
+  width: 100vw;  
+  background-image: url(http://holyhikes.org/wp-content/uploads/2017/11/blue-planet-earth-rotation-with-space-background-4k-animation_ed3hfc3cl__F0000.png);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: auto;
+}
+
+.dimmer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 80vh;
+  background-color: rgba(0, 0, 0, 0.322);
+  width: 100vw;
+}
+
+.landingLogoContainer{
+  margin-top: 13vh;
+}
+.landingLogoContainer img{
+  width: 50vh;
+}
+
+.landingLogoText{
+  font-size: 20px;
+  color: white;
+  padding: 10px;
+}
+
+.firstPanelText{
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 80vh;
+  background-color: #2A012C;
+  height: 20vh;
+  width: 100vw;
+  margin-right: 10px;
+}
+
+.fpt{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  color: white;
+  margin: auto;
+}
+.fpt img{
+  width: 55px;
+  margin-bottom: 5px;
+}
+
+.fpt p{
+  font-size: 25px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.secondPanel{
+  height: 100vh;
+  width: 100vw;  
+  background-image: url(https://images.pexels.com/photos/618544/pexels-photo-618544.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* .secondPanel:after{
+    content: '';
+    position: inherit;
+    border-style: solid;
+    border-width: 0 0 100px 500px;
+    border-color: transparent transparent #c43235 transparent;
+} */
+
+.secondPanelText{
+  display: flex;
+  flex-direction: row;
+  background-color: #c43235;
+  height: 20vh;
+  width: 100vw;
+}
+
+.spt{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  color: white;
+  padding: 5px;
+  margin: auto;
+}
+.spt h3{
+  font-size: 30px;  
+}
+
+.spt p{
+  font-size: 25px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.thirdPanel{
+  height: 80vh;
+  width: 100vw;  
+  background-image: url(https://images.pexels.com/photos/697243/pexels-photo-697243.jpeg);
+  background-position: center;
+  background-size: cover;  
+  background-attachment: fixed;
+}
+
+.thirdPanelText{
+  display: flex;
+  flex-direction: row;
+  background-color: #2A012C;
+  height: 20vh;
+  width: 100vw;
+}
+
+.tpt{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  color: white;
+}
+
+.tpt h3{
+  font-size: 30px;  
+}
+
+.tpt p{
+  font-size: 25px; 
+  text-align: center;
+}
+.fourthPanel{
+  height: 80vh;
+  width: 100vw;  
+  background-image: url(./assets/middlewhere.jpg);
+  background-position: center;
+  background-size: cover;  
+  background-attachment: fixed;
+}
+
+.fourthPanelText{
+  display: flex;
+  flex-direction: row;
+  background-color: #c43235;
+  height: 20vh;
+  width: 100vw;
+}
+
+.fopt{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  color: white;
+  padding: 5px;
+  margin: auto;  
+}
+
+
+
+.fopt h3{
+  font-size: 30px;  
+}
+
+.fopt p{
+  font-size: 25px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+
+.fifthPanel{
+  height: 80vh;
+  width: 100vw;  
+  background-image: url(https://images.pexels.com/photos/696039/pexels-photo-696039.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.fifthPanelText{
+  background-color: #06000ae7;
+  height: 30vh;
+  width: 100vw;
+}
+.fipt{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  color: white;
+  padding: 5px;
+  margin: auto;  
+}
+.fipt p{
+  font-size: 20px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.fipt img{
+  width: 175px;
+}
+.fiptButton{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+@media(max-width: 375px){
+  .loginButton{
+    top: 370px;
+    right: 125px;
+    height: 35px;
+    width: 125px;
+    background-color: rgb(131, 12, 12);
+    border: 1px black solid;
+    border-radius: 25px;
+  }
+  
+  .loginButton p{
+    margin: auto;
+    margin-top: 7px;
+    color: white;
+  }
+  .firstPanel{
+    background-attachment: scroll;
+  }
+  .firstPanelText{
+    height: 30vh;
+    top: 70vh;
+  }
+  .secondPanel{
+  background-attachment: scroll;    
+  }
+  .secondPanelText{    
+    flex-direction: column;
+    height: 60vh;
+  }
+  .spt{
+    justify-content: center;
+  }
+  .secondPanelText p{    
+    font-size: 25px;
+  }
+  .secondPanelText h3{
+    font-size: 25px;
+  }
+  .thirdPanel{
+    background-attachment: scroll;    
+    }
+  .thirdPanelText{
+    flex-direction: column;
+    height: 75vh;
+  }
+  .tpt{
+    width: 95vw;
+    justify-content: center;   
+  }
+  .thirdPanelText p{
+    font-size: 25px;
+  }
+  .thirdPanelText h3{
+    font-size: 25px;
+  }
+  .fourthPanel{
+    background-attachment: scroll;    
+    }
+  .fourthPanelText{
+    flex-direction: column;
+    height: 75vh;
+  }
+  .fopt{
+    width: 95vw;
+    justify-content: center;       
+  }
+  .fourthPanelText p{
+    font-size: 25px;
+  }
+  .fourthPanelText h3{
+    font-size: 25px;
+  }
+  .fifthPanel{
+    background-attachment: scroll;    
+    }
+  .fifthPanelText{
+    flex-direction: column;
+    height: 40vh;
+  }
+}
